@@ -1,0 +1,32 @@
+.shop-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  /* margin-top: 120px; */
+  gap: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-items: center;
+}
+
+/* .products-container {
+  margin-left: 10%;
+  border: solid 1px gray;
+  height: 508px;
+  width: 300px;
+} */
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 120px;
+}
+
+.cart-container {
+  background-color: #ffcd71;
+  padding: 10px;
+  position: fixed;
+  right: 30px;
+  margin-top: 80px;
+  height: 100%;
+  width: 200px;
+}
